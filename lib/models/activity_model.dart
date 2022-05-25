@@ -1,19 +1,17 @@
-import 'dart:ffi';
-
 class Activity {
   String imageUrl;
   String name;
   String type;
   List<String> smartTimes;
-  Int rating;
-  Int price;
+  int rating;
+  int price;
 
   Activity({
-    this.imageUrl,
-    this.name,
-    this.type,
-    this.smartTimes,
-    this.rating,
-    this.price,
+    required this.imageUrl,
+    required this.name,
+    required this.type,
+    required this.smartTimes,
+    required this.rating,
+    required this.price,
   });
 }
